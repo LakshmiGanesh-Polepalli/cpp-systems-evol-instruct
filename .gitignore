@@ -1,1 +1,13 @@
+# Ignore model weights and checkpoints
+*.safetensors
+*.bin
+*.pt
+outputs/
+checkpoints/
 
+# Ignore virtual environments
+venv/
+miniconda3/
+__pycache__/
+
+# Ignore specific large local data if needed (though 2MB jsonl is safe to push)
