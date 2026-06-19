@@ -1,8 +1,8 @@
-⚙️ Cpp-Systems-Evol-Instruct
+#⚙️ Cpp-Systems-Evol-Instruct
 
 An end-to-end machine learning pipeline that synthesizes highly complex C++ programming data locally and fine-tunes a quantized LLM (Qwen2.5-Coder-7B) using QLoRA. The goal is to distill advanced systems architecture reasoning into a highly efficient, locally deployable model.
 
-🚀 Architecture Overview
+#🚀 Architecture Overview
 
 This project is divided into two distinct MLOps phases, utilizing a hybrid Local/Cloud compute strategy:
 
@@ -20,7 +20,7 @@ Uses Unsloth to load the base model in 4-bit precision, drastically reducing VRA
 
 Trains custom LoRA adapters (Rank 16) on the synthesized dataset using Supervised Fine-Tuning (SFT).
 
-📊 Pipeline Telemetry & Yield
+#📊 Pipeline Telemetry & Yield
 
 Because LLMs hallucinate during synthetic data generation, the Evol-Instruct pipeline actively monitors and drops corrupted outputs. Below are the final yields from the local generation run:
 
@@ -34,7 +34,7 @@ Filtered (JSON Schema Fails): [X]
 
 Final Dataset Yield: [X]%
 
-📂 Project Structure
+#📂 Project Structure
 
 cpp-systems-evol-instruct/
 ├── pipelines/
@@ -48,7 +48,7 @@ cpp-systems-evol-instruct/
 └── README.md
 
 
-🛠️ How to Run
+#🛠️ How to Run
 
 1. Generating the Synthetic Data (Local)
 
