@@ -1,4 +1,4 @@
-# ⚙️ Cpp-Systems-Evol-Instruct
+# ⚙️ Cpp-Systems-Evol-Instruct - C++ Systems Copilot (Qwen2.5 7
 
 An end-to-end machine learning pipeline that synthesizes highly complex C++ programming data locally and fine-tunes a quantized LLM (Qwen2.5-Coder-7B) using QLoRA. The goal is to distill advanced systems architecture reasoning into a highly efficient, locally deployable model.
 

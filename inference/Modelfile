@@ -1,4 +1,4 @@
-FROM ./model.gguf
+FROM /mnt/c/Users/admin/local_models/model.gguf
 
 PARAMETER temperature 0.1
 PARAMETER num_ctx 4096

@@ -10,4 +10,10 @@ venv/
 miniconda3/
 __pycache__/
 
-# Ignore specific large local data if needed (though 2MB jsonl is safe to push)
+# ignore cache
+*.jsonl
+*.gguf
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
